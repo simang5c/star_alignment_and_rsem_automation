@@ -1,8 +1,9 @@
 #Tips:
-#download this program and store in a folder. 
+#download this python program and "input_for_joining.sh" and store in a folder. 
 #For example in this example I downloaded and stored in the folder scripts 
+#your fastq files should be in the same directory where you stored scripts folder
 #Make sure you create the star index and rsem index files
-#input the index and genome fasta location files
+#input the index and genome fasta location files in star and rsem commands
 
 #Program starts
 import glob
@@ -63,6 +64,7 @@ def merging_files(ff,output,typeof_column):
 
 
 if __name__ == '__main__':
+
     files_ls=glob.glob("../*_R1.fq") 
 #creating a star alignment output director
     makedir=(f"mkdir ../star_output")
