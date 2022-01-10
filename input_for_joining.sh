@@ -1,4 +1,4 @@
-# This is a shell script file that needs to be downloaded along with the python code
+# This is a shell script file that needs to be downloaded along with the python code "running_alignment_and_quantification.py"
 Files1=*genes.results
 Files2=*isoforms.results
 
